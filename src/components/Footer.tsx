@@ -104,11 +104,11 @@ export default function Footer() {
             <p className="text-center text-sm  sm:text-left">
               © 2024 Holiday International —
               <Link
-                href="https://www.linkedin.com/in/mehedi-hasan-himel/"
+                href="https://www.facebook.com/profile.php?id=61553228693675"
                 className="ml-1 text-blue-500"
                 target="_blank"
               >
-                @Mehedi-Hasan-Himel
+                @GreatBro-IT
               </Link>
             </p>
             <span className="mt-2 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
