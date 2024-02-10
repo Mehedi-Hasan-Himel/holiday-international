@@ -63,7 +63,8 @@ export default function BdPlaces() {
               // width={433}
               src={place.image}
               alt={place.name}
-              layout="fill"
+              // layout="fill"
+              fill
               objectFit="cover"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">

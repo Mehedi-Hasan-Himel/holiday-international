@@ -15,15 +15,15 @@ export default function Footer() {
 
     {
       title: "Refund Policy",
-      link: "/policy",
+      link: "/Refund-Policy",
     },
     {
       title: "Terms & Condition",
-      link: "/terms",
+      link: "/terms&condition",
     },
     {
       title: "Privacy Policy",
-      link: "/privacy",
+      link: "/Privacy-Policy",
     },
   ];
 
