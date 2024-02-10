@@ -4,52 +4,52 @@ import Image from "next/image";
 const destination = [
   {
     id: 1,
-    name: "Bandarban",
-    image: "/images/bangladesh/bandarban.jpeg",
+    name: "Bali",
+    image: "/images/international/bali.jpeg",
   },
   {
     id: 2,
-    name: "Chittagong",
-    image: "/images/bangladesh/chittagong.jpeg",
+    name: "Dubai",
+    image: "/images/international/dubai.jpeg",
   },
   {
     id: 3,
-    name: "Cox's Bazar",
-    image: "/images/bangladesh/coxs-bazar.jpeg",
+    name: "Finland-Aurora",
+    image: "/images/international/Finland_Aurora.jpeg",
   },
   {
     id: 4,
-    name: "Dhaka",
-    image: "/images/bangladesh/dhaka.jpeg",
+    name: "Great-Wall-of-China",
+    image: "/images/international/great-wall.jpeg",
   },
   {
     id: 5,
-    name: "Rangamati",
-    image: "/images/bangladesh/rangamati.jpeg",
+    name: "Kashmir",
+    image: "/images/international/kashmir.webp",
   },
   {
     id: 6,
-    name: "Sreemongol",
-    image: "/images/bangladesh/sreemongol.jpeg",
+    name: "Maldives",
+    image: "/images/international/maldives.jpeg",
   },
   {
     id: 7,
-    name: "Sajek",
-    image: "/images/bangladesh/sajek.jpeg",
+    name: "Morisas",
+    image: "/images/international/morisas.webp",
   },
   {
     id: 8,
-    name: "Sylhet",
-    image: "/images/bangladesh/sylhet.jpeg",
+    name: "Sri Lanka",
+    image: "/images/international/sri-lanka.jpeg",
   },
   {
-    id: 8,
-    name: "Ratargul",
-    image: "/images/bangladesh/ratargul.jpeg",
+    id: 9,
+    name: "Vietnam",
+    image: "/images/international/vietnam.webp",
   },
 ];
 
-export default function BdPlaces() {
+export default function InternationalPlaces() {
   return (
     <div>
       <div className="grid grid-cols-1 gap-6 px-5 md:grid-cols-2 lg:grid-cols-3">
@@ -63,7 +63,7 @@ export default function BdPlaces() {
               width={433}
               src={place.image}
               alt={place.name}
-              // layout="fill"
+            //   layout="fill"
               objectFit="cover"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">

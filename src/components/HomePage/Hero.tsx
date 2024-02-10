@@ -19,7 +19,7 @@ export default function Hero() {
         <h1 className="custom-hero-title text-3xl font-semibold text-white sm:text-6xl md:text-6xl lg:text-[5.8rem]">
           Holiday International
         </h1>
-        <div className="flex justify-evenly gap-5 text-2xl text-white  sm:text-3xl md:gap-10 ">
+        <div className="flex justify-evenly gap-5 text-md text-white  sm:text-3xl md:gap-10 ">
           <span> Dream </span>
           <span> Explore </span>
           <span> Luxury </span>
