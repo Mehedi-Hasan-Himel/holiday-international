@@ -32,12 +32,12 @@ export default function Header() {
   ];
   const pathName = usePathname();
   return (
-    <nav className=" fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 px-10 backdrop-blur supports-[backdrop-filter]:bg-background/60 ">
+    <nav className=" fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 px-5 backdrop-blur supports-[backdrop-filter]:bg-background/60 ">
       {/* className=" fixed top-0 z-50 w-full backdrop-blur " */}
       <section className=" mx-auto flex h-20 max-w-screen-xl items-center justify-between ">
         <Link
           href="/"
-          className="cursor-pointe flex items-center gap-1 font-semibold uppercase underline decoration-[1px] underline-offset-2 hover:text-blue-600"
+          className="cursor-pointe flex  items-center gap-1 font-semibold uppercase underline decoration-[1px] underline-offset-2 hover:text-blue-600"
         >
           <Image
             className="rounded-md"
