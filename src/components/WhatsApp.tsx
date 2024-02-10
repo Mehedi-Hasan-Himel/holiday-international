@@ -9,10 +9,8 @@ export default function WhatsApp() {
     	"
     >
       <Link target="_blank" href="https://wa.me/8801312778360">
-        {/* https://api.whatsapp.com/send?phone=01312778360&text */}
-        {/* https://wa.me/8801712345678 */}
         <Image
-          className="fixed bottom-20 right-5 z-50 animate-ping hover:animate-none"
+          className="fixed bottom-20 right-5 z-50 "
           src="/images/whatsapp.svg"
           alt="whatsapp"
           width={100}
