@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       {/* className="md:h-screen" */}
       <video
-        className="w-full object-cover	"
+        className="h-[50vh] w-full object-cover	md:h-screen"
         // sm:h-screen
         autoPlay
         loop
