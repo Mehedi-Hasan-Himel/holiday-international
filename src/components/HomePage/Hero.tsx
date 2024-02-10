@@ -15,8 +15,8 @@ export default function Hero() {
         playsInline
         src="/videos/hero.mp4"
       />
-      <div className=" absolute top-0 mt-[-290px] flex h-full w-full flex-col items-center justify-center gap-1 sm:mt-[-150px] md:mt-[-150px] md:gap-5  lg:mt-[-100px]">
-        <h1 className="custom-hero-title text-3xl font-semibold text-white sm:text-6xl md:text-6xl lg:text-[5.8rem]">
+      <div className=" absolute top-0 mt-[-280px] flex h-full w-full flex-col items-center justify-center gap-1 sm:mt-[-150px] md:mt-[-150px] md:gap-5  lg:mt-[-100px]">
+        <h1 className="custom-hero-title  text-3xl font-semibold text-white sm:text-6xl md:text-6xl lg:text-[5.8rem]">
           Holiday International
         </h1>
         <div className="text-md flex justify-evenly gap-5 text-white  sm:text-3xl md:gap-10 ">
