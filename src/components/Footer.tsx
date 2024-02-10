@@ -66,7 +66,7 @@ export default function Footer() {
               shape up each other’s ideas to bring the best out of them.
             </p>
           </div>
-          <div className="-mb-10 mt-10 flex flex-grow flex-wrap  text-center md:mt-0 md:pl-20 md:text-left">
+          <div className="-mb-10 mt-10 flex flex-grow flex-wrap md:flex-row  text-center md:mt-0 md:pl-20 md:text-left">
             <div className="w-full px-4 md:w-1/2 lg:w-1/4">
               <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
                 Useful Links

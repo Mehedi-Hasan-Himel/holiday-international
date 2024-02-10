@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Holiday International",
-  description: "Holiday International is a travel agency that provides the best travel experience. We provide the best travel packages for you.",
+  description:
+    "Holiday International is a travel agency that provides the best travel experience. We provide the best travel packages for you.",
 };
 
 export default function RootLayout({
