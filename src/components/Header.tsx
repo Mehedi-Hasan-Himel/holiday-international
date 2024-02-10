@@ -41,12 +41,14 @@ export default function Header() {
         >
           <Image
             className="rounded-md"
-            height={80}
-            width={80}
+            height={50}
+            width={50}
             src="/images/Logo.png"
             alt="logo of Holiday International"
           />
-          <span className="mt-7 lg:text-2xl">Holiday International</span>
+          <span className="mt-3 text-sm lg:text-2xl">
+            Holiday International
+          </span>
         </Link>
         <div className="hidden items-center gap-7 lg:inline-flex">
           {navigation.map((item) => (
