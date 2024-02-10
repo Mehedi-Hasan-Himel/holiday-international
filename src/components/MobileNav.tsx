@@ -47,7 +47,7 @@ const MobileNav = () => {
 
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className=" text-primary  lg:hidden">
+    <nav className=" text-primary  lg:hidden ">
       {/* Nav Open */}
       <div
         onClick={() => setOpenMenu(true)}
@@ -60,7 +60,8 @@ const MobileNav = () => {
         variants={menuVariants}
         initial="hidden"
         animate={openMenu ? "show" : ""}
-        className=" absolute right-0 top-0 z-20 h-screen w-full max-w-xs bg-white shadow-2xl"
+        className=" absolute right-0 top-0 z-20 h-screen w-full max-w-xs bg-white shadow-2xl backdrop-blur supports-[backdrop-filter]:bg-background/60"
+        // backdrop-blur supports-[backdrop-filter]:bg-background/60
       >
         {/* icon */}
         <div
@@ -70,8 +71,27 @@ const MobileNav = () => {
           <IoMdClose></IoMdClose>
         </div>
         {/* menu list start*/}
-        <div className="font-primary  flex h-full cursor-pointer flex-col items-center  justify-start gap-y-8 pt-20 text-3xl font-bold text-primary dark:bg-black dark:text-white">
-          <Link href="/">Home</Link>
+        <div className="font-primary  flex h-full cursor-pointer flex-col items-center  justify-start gap-y-8 pt-20 text-3xl font-bold text-primary  dark:text-white">
+          {navigation.map((item) => (
+            <div key={item.name}>
+              <Link
+                href={item.href}
+                className={`group relative overflow-hidden ${
+                  pathName === item.href && "text-blue-600"
+                }`}
+              >
+                {item.name}
+                <span
+                  className={`absolute bottom-0 left-0 inline-flex h-[1px] w-full -translate-x-[-250%] duration-300 group-hover:translate-x-0 dark:bg-white ${
+                    pathName === item.href
+                      ? "translate-x-0 bg-blue-600 dark:bg-blue-600"
+                      : "bg-black dark:bg-white"
+                  }`}
+                />
+              </Link>
+            </div>
+          ))}
+          {/* <Link href="/">Home</Link>
 
           <Link href="/services">Services</Link>
 
@@ -79,7 +99,7 @@ const MobileNav = () => {
 
           <Link href="/about">About</Link>
 
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact</Link> */}
 
           <ThemeButton />
         </div>

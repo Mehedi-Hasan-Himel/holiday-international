@@ -13,8 +13,8 @@ export default function WhatsApp() {
           className="fixed bottom-20 right-5 z-50 "
           src="/images/whatsapp.svg"
           alt="whatsapp"
-          width={100}
-          height={100}
+          width={50}
+          height={50}
         />
       </Link>
     </div>
