@@ -8,7 +8,11 @@ export default function WhatsApp() {
       className="absolute  cursor-pointer
     	"
     >
-      <Link target="_blank" href="https://wa.me/8801312778360">
+      <Link
+        target="_blank"
+        href="https://wa.me/8801601362101
+"
+      >
         <Image
           className="fixed bottom-2 right-5 z-50 "
           src="/images/whatsapp.svg"
