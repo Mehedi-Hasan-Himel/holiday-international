@@ -64,9 +64,9 @@ export default function Header() {
         </div>
         <div className="flex gap-5">
           <MobileNav />
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden">
             <ThemeButton />
-          </div>
+          </div> */}
         </div>
 
         <div className="hidden lg:inline-block ">

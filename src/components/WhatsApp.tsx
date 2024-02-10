@@ -10,11 +10,11 @@ export default function WhatsApp() {
     >
       <Link target="_blank" href="https://wa.me/8801312778360">
         <Image
-          className="fixed bottom-5 right-5 z-50 "
+          className="fixed bottom-2 right-7 z-50 "
           src="/images/whatsapp.svg"
           alt="whatsapp"
-          width={50}
-          height={50}
+          width={60}
+          height={60}
         />
       </Link>
     </div>
