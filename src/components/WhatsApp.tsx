@@ -10,7 +10,7 @@ export default function WhatsApp() {
     >
       <Link
         target="_blank"
-        href="https://api.whatsapp.com/send?phone=01312778360&text"
+        href="https://api.whatsapp.com/send?phone=+8801312778360&text"
       >
         {/* https://api.whatsapp.com/send?phone=01312778360&text */}
         {/* https://wa.me/8801712345678 */}
