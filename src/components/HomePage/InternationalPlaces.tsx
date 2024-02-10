@@ -59,11 +59,11 @@ export default function InternationalPlaces() {
             className="relative h-60 overflow-hidden rounded-lg shadow-md"
           >
             <Image
-              height={240}
-              width={433}
+              // height={240}
+              // width={433}
               src={place.image}
               alt={place.name}
-            //   layout="fill"
+              layout="fill"
               objectFit="cover"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
