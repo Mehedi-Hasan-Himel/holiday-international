@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function Footer() {
   const UsefulLinks = [
     {
-      title: "About Us",
+      title: "About",
       link: "/about",
     },
     {
-      title: "Contact Us",
+      title: "Contact",
       link: "/contact",
     },
 
@@ -45,11 +45,11 @@ export default function Footer() {
   return (
     <footer className=" body-font   bottom-0 w-full">
       <section className="m-auto max-w-[1320px] ">
-        <div className="container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start border-b">
-          <div className="mx-auto w-64 flex-shrink-0 text-center md:mx-0 md:text-left">
+        <div className="container mx-auto  grid grid-cols-1 gap-5 border-b px-5 py-24 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto w-64 ">
             <Link
               href="/"
-              className="title-font flex items-center justify-center font-medium md:justify-start gap-1"
+              className="title-font flex items-center justify-center gap-1 font-medium md:justify-start"
             >
               <Image
                 className="rounded-md"
@@ -66,37 +66,40 @@ export default function Footer() {
               shape up each other’s ideas to bring the best out of them.
             </p>
           </div>
-          <div className="-mb-10 mt-10 flex flex-grow flex-wrap md:flex-row  text-center md:mt-0 md:pl-20 md:text-left">
-            <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-              <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
-                Useful Links
-              </h2>
-              <nav className="mb-10 flex list-none flex-col	 gap-2">
-                {UsefulLinks.map((link, index) => (
-                  <li key={index}>
-                    <Link href={link.link} className=" hover:text-gray-400">
-                      {link.title}
-                    </Link>
-                  </li>
-                ))}
-              </nav>
-            </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-              <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
-                Contact Info
-              </h2>
-              <nav className="mb-10 flex list-none flex-col	 gap-2">
-                {ContactInfo.map((contact, index) => (
-                  <li key={index}>
-                    <Link href={contact.link} className=" hover:text-gray-400">
-                      {contact.title}
-                    </Link>
-                  </li>
-                ))}
-              </nav>
-            </div>
+          <div className="mx-auto w-64">
+            <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
+              Useful Links
+            </h2>
+            <nav className="mb-10 flex list-none flex-col	 gap-2">
+              {UsefulLinks.map((link, index) => (
+                <li key={index}>
+                  <Link href={link.link} className=" hover:text-gray-400">
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </nav>
           </div>
+
+          <div className="mx-auto w-64">
+            <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
+              Contact Info
+            </h2>
+            <nav className="mb-10 flex list-none flex-col	 gap-2">
+              {ContactInfo.map((contact, index) => (
+                <li key={index}>
+                  <Link href={contact.link} className=" hover:text-gray-400">
+                    {contact.title}
+                  </Link>
+                </li>
+              ))}
+            </nav>
+          </div>
+
+          {/* <div className="-mb-10 mt-10 flex flex-grow flex-wrap text-center  md:mt-0 md:flex-row md:pl-20 md:text-left">
+            
+          </div> */}
         </div>
         {/* <hr /> */}
         <div className="">
