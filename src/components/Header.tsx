@@ -14,12 +14,12 @@ export default function Header() {
     },
 
     {
-      name: "Services",
-      href: "/services",
+      name: "Domestic",
+      href: "/Domestic",
     },
     {
-      name: "Experience",
-      href: "/experience",
+      name: "International",
+      href: "/International",
     },
     {
       name: "About",

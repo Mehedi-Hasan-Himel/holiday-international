@@ -4,6 +4,7 @@ import Container from "../Container";
 import BangladeshDestination from "./BangladeshDestination";
 import InternationalDestination from "./InternationalDestination";
 import WhatsApp from "../WhatsApp";
+import Promotions from "./Promotions";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,9 @@ export default function HomePage() {
       <Hero />
       <Container>
         <BangladeshDestination />
+      </Container>
+      <Promotions />
+      <Container>
         <InternationalDestination />
       </Container>
     </main>

@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import React from "react";
 
-export default function ServicesPage() {
+export default function Domestic() {
   return (
     <Container className="flex flex-col gap-3 mt-20">
       <h1 className="text-3xl">Services Page</h1>
