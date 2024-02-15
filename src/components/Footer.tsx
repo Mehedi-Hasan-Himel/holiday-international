@@ -29,6 +29,10 @@ export default function Footer() {
 
   const ContactInfo = [
     {
+      title: "CHA-95/3, NORTH BADDA, Badda, Dhaka, PO : 1212",
+      link: "/",
+    },
+    {
       title: "+88 0123456789",
       link: "/",
     },
@@ -46,25 +50,31 @@ export default function Footer() {
     <footer className=" body-font   bottom-0 w-full">
       <section className="m-auto max-w-[1320px] ">
         <div className="container mx-auto  grid grid-cols-1 gap-5 border-b px-5 py-24 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="mx-auto w-64 ">
-            <Link
-              href="/"
-              className="title-font flex items-center justify-center gap-1 font-medium md:justify-start"
-            >
-              <Image
-                className="rounded-md"
-                height={50}
-                width={50}
-                src="/images/Logo.png"
-                alt="logo of Holiday International"
-              />
-              <span className="mt-5  text-xl">Holiday International</span>
-            </Link>
-            <p className="mt-2 text-sm ">
-              What brings innovation to everything we do is collaboration. We
-              help each other, solve issues we face, we enjoys sweet talks. We
-              shape up each other’s ideas to bring the best out of them.
-            </p>
+          <div className="w-100 mx-auto flex flex-col gap-5">
+            <div>
+              <Link
+                href="/"
+                className="title-font flex items-center justify-center font-medium md:justify-start"
+              >
+                <Image
+                  className="rounded-md"
+                  height={200}
+                  width={200}
+                  src="/images/Holiday-Logo.png"
+                  alt="logo of Holiday International"
+                />
+                {/* <span className="mt-5  text-xl">Holiday International</span> */}
+              </Link>
+              <p className="mt-[-50px] text-sm ">
+                The Holiday international Pvt. Ltd. Leading Hospitality
+                Consultancy firm in Bangladesh. To provide you better and
+                affordable service. Tourism is our passion and not just a
+                business. We believe more in delivering than just promising.
+                With rich expertise and experience wholesale tourism market, we
+                understand the requirement of the customer and provide the
+                quality and professional service.
+              </p>
+            </div>
           </div>
 
           <div className="mx-auto w-64">
@@ -84,7 +94,7 @@ export default function Footer() {
 
           <div className="mx-auto w-64">
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
-              Contact Info
+              Contact Information
             </h2>
             <nav className="mb-10 flex list-none flex-col	 gap-2">
               {ContactInfo.map((contact, index) => (
@@ -97,10 +107,23 @@ export default function Footer() {
             </nav>
           </div>
 
+          <div className="flex justify-start gap-5 sm:flex-col lg:flex-row">
+            <Image src="/images/gov.png" width={70} height={50} alt="visa" />
+            <div>
+              <h2 className="text-lg">Certified by Govt. Of Bangladesh</h2>
+              <p>
+                TIN : 220150598286 <br />
+                Trade Lenience: <br />
+                TRAD/DNCC/031199/2023
+              </p>
+            </div>
+          </div>
+
           {/* <div className="-mb-10 mt-10 flex flex-grow flex-wrap text-center  md:mt-0 md:flex-row md:pl-20 md:text-left">
             
           </div> */}
         </div>
+
         {/* <hr /> */}
         <div className="">
           <div className="container mx-auto flex flex-col flex-wrap px-5 py-4 sm:flex-row">

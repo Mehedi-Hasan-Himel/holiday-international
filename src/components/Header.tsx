@@ -32,7 +32,7 @@ export default function Header() {
   ];
   const pathName = usePathname();
   return (
-    <nav className=" fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 px-5 backdrop-blur supports-[backdrop-filter]:bg-background/60 ">
+    <nav className=" fixed top-0 z-50 py-5 w-full border-b border-border/40 bg-background/95 px-5 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       {/* className=" fixed top-0 z-50 w-full backdrop-blur " */}
       <section className=" mx-auto flex h-20 max-w-screen-xl items-center justify-between ">
         <Link
@@ -40,15 +40,15 @@ export default function Header() {
           className="cursor-pointe flex  items-center gap-1 font-semibold uppercase underline decoration-[1px] underline-offset-2 hover:text-blue-600"
         >
           <Image
-            className="rounded-md"
-            height={50}
-            width={50}
-            src="/images/Logo.png"
+            className="pt-14 rounded-md"
+            width={200}
+            height={200}
+            src="/images/Holiday-Logo.png"
             alt="logo of Holiday International"
           />
-          <span className="mt-3 text-sm lg:text-2xl">
+          {/* <span className="mt-3 text-sm lg:text-2xl">
             Holiday International
-          </span>
+          </span> */}
         </Link>
         <div className="hidden items-center gap-7 lg:inline-flex">
           {navigation.map((item) => (

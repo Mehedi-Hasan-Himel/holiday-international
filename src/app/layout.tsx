@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import WhatsApp from "@/components/WhatsApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <WhatsApp />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -35,3 +37,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+
+
+

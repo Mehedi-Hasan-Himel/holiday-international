@@ -26,12 +26,12 @@ const MobileNav = () => {
     },
 
     {
-      name: "Services",
-      href: "/services",
+      name: "Domestic",
+      href: "/Domestic",
     },
     {
-      name: "Experience",
-      href: "/experience",
+      name: "International",
+      href: "/International",
     },
     {
       name: "About",
@@ -60,7 +60,7 @@ const MobileNav = () => {
         variants={menuVariants}
         initial="hidden"
         animate={openMenu ? "show" : ""}
-        className=" absolute right-0 top-0 z-20 h-screen w-full max-w-xs bg-white shadow-2xl backdrop-blur supports-[backdrop-filter]:bg-background/60"
+        className=" absolute right-0 top-0 z-20 h-screen w-full max-w-xs bg-white dark:bg-black shadow-2xl "
         // backdrop-blur supports-[backdrop-filter]:bg-background/60
       >
         {/* icon */}

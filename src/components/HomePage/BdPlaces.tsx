@@ -63,6 +63,7 @@ export default function BdPlaces() {
               src={place.image}
               alt={place.name}
               fill
+              sizes="100%"
               // height={240}
               // width={433}
               // layout="fill"
