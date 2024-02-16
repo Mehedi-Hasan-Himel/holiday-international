@@ -5,61 +5,61 @@ import Link from "next/link";
 const destination = [
   {
     id: 1,
-    name: "Bandarban",
-    image: "/images/bangladesh/bandarban.jpeg",
-    href: "Domestic/Bandarban",
+    name: "Fu-Wang Dominoes Resort",
+    image: "/images/hotel/fuwang.jpeg",
+    href: "",
   },
   {
     id: 2,
-    name: "Chittagong",
-    image: "/images/bangladesh/chittagong.jpeg",
-    href: "Domestic/Chittagong",
+    name: "Ocean Paradise Hotel & Resort",
+    image: "/images/hotel/OceanParadise.jpeg",
+    href: "",
   },
   {
     id: 3,
-    name: "Cox's Bazar",
-    image: "/images/bangladesh/coxs-bazar.jpeg",
-    href: "Domestic/Coxs-Bazar",
+    name: "Seagull Hotel",
+    image: "/images/hotel/Seagull-Hotel .jpeg",
+    href: "",
   },
   {
     id: 4,
-    name: "Dhaka",
-    image: "/images/bangladesh/dhaka.jpeg",
-    href: "Domestic/Dhaka",
+    name: "Bashati Bay Resort",
+    image: "/images/hotel/Bashati-Bay.jpeg",
+    href: "",
   },
   {
     id: 5,
-    name: "Rangamati",
-    image: "/images/bangladesh/rangamati.jpeg",
-    href: "Domestic/Rangamati",
+    name: "Hotel Prime Park",
+    image: "/images/hotel/HotelPrime.jpeg",
+    href: "",
   },
   {
     id: 6,
-    name: "Sreemongol",
-    image: "/images/bangladesh/sreemongol.jpeg",
-    href: "Domestic/Sreemongol",
+    name: "Long Beach Hotel Cox's Bazar",
+    image: "/images/hotel/Long-Beach.jpeg",
+    href: "",
   },
   {
     id: 7,
-    name: "Sajek",
-    image: "/images/bangladesh/sajek.jpeg",
-    href: "Domestic/Sajek",
+    name: "Best Western Heritage Hotel",
+    image: "/images/hotel/Best-Western.jpeg",
+    href: "",
   },
   {
     id: 8,
-    name: "Sylhet",
-    image: "/images/bangladesh/sylhet.jpeg",
-    href: "Domestic/Sylhet",
+    name: "The Cox's Today",
+    image: "/images/hotel/The-Coxs-Today .jpeg",
+    href: "",
   },
   {
     id: 9,
-    name: "Ratargul",
-    image: "/images/bangladesh/ratargul.jpeg",
-    href: "Domestic/Ratargul",
+    name: "Royal Tulip Beach Resort & Spa",
+    image: "/images/hotel/Royal-Tulip.jpeg",
+    href: "",
   },
 ];
 
-export default function BdPlaces() {
+export default function Hotel() {
   return (
     <div>
       <div className="grid grid-cols-1 gap-6 px-5 md:grid-cols-2 lg:grid-cols-3">
@@ -77,7 +77,7 @@ export default function BdPlaces() {
                 sizes="100%"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                <h1 className="group-hover:text-5xl ease-in-out duration-100 text-3xl font-bold text-white">
+                <h1 className="text-xl font-bold text-white duration-100 ease-in-out group-hover:text-3xl">
                   {place.name}
                 </h1>
               </div>

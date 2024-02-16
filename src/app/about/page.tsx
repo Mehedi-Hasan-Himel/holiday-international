@@ -38,9 +38,18 @@ export default function AboutPage() {
             range of options for your accommodations and travel plans.
           </p>
         </section>
-        <section className="flex justify-between mt-10">
-          <Image src="/images/tin.png" alt="about" width={500} height={500} />
-          <Image src="/images/triad.png" alt="about" width={500} height={500} />
+        <section className="mt-10 flex flex-col items-center justify-evenly gap-5 md:flex-row">
+          <div>
+            <Image src="/images/tin.png" alt="about" width={500} height={500} />
+          </div>
+          <div>
+            <Image
+              src="/images/triad.png"
+              alt="about"
+              width={500}
+              height={500}
+            />
+          </div>
         </section>
       </Container>
     </section>
