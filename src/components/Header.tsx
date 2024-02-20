@@ -43,7 +43,7 @@ export default function Header() {
             className="pt-14 rounded-md"
             width={200}
             height={200}
-            src="/images/Holiday-Logo.png"
+            src="https://i.ibb.co/zsG6KBX/Holiday-Logo.png"
             alt="logo of Holiday International"
           />
           {/* <span className="mt-3 text-sm lg:text-2xl">

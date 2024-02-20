@@ -60,7 +60,7 @@ export default function Footer() {
                   className="rounded-md"
                   height={200}
                   width={200}
-                  src="/images/Holiday-Logo.png"
+                  src="https://i.ibb.co/zsG6KBX/Holiday-Logo.png"
                   alt="logo of Holiday International"
                 />
                 {/* <span className="mt-5  text-xl">Holiday International</span> */}
@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-start gap-5 sm:flex-col lg:flex-row">
-            <Image src="/images/gov.png" width={70} height={50} alt="visa" />
+            <Image src="https://i.ibb.co/jZSrqRJ/gov.png" width={70} height={50} alt="visa" />
             <div>
               <h2 className="text-lg">Certified by Govt. Of Bangladesh</h2>
               <p>

@@ -7,32 +7,32 @@ const destination = [
     id: 1,
     title: "Tropical",
     desc: "Exotic Places",
-    image: "/images/promotions/Tropical.png",
+    image: "https://i.ibb.co/VD99sS7/Tropical.png",
   },
   {
     id: 2,
     title: "Stunning ",
     desc: "Far Away Places",
-    image: "/images/promotions/Stunning.png",
+    image: "https://i.ibb.co/SwKW9DY/Stunning.png",
   },
   {
     id: 3,
     title: "Relaxing",
     desc: "Holiday",
-    image: "/images/promotions/Relaxing.png",
+    image: "https://i.ibb.co/4TRftb1/Relaxing.png",
   },
   {
     id: 4,
     title: "Romantic",
     desc: "Wine Tour",
-    image: "/images/promotions/Romantic.png",
+    image: "https://i.ibb.co/F5vpTCG/Romantic.png",
   },
 ];
 
 export default function Promotions() {
   return (
     <section className="my-5 gap-0">
-       <div>
+      <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {destination.map((place) => (
             <div
@@ -60,8 +60,7 @@ export default function Promotions() {
             </div>
           ))}
         </div>
-      </div> 
-
+      </div>
     </section>
   );
 }

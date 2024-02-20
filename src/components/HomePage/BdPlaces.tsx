@@ -6,55 +6,55 @@ const destination = [
   {
     id: 1,
     name: "Bandarban",
-    image: "/images/bangladesh/bandarban.jpeg",
+    image: "https://i.ibb.co/NTvp02M/bandarban.jpg",
     href: "Domestic/Bandarban",
   },
   {
     id: 2,
     name: "Chittagong",
-    image: "/images/bangladesh/chittagong.jpeg",
+    image: "https://i.ibb.co/Qkm1zsq/chittagong.jpg",
     href: "Domestic/Chittagong",
   },
   {
     id: 3,
     name: "Cox's Bazar",
-    image: "/images/bangladesh/coxs-bazar.jpeg",
+    image: "https://i.ibb.co/7YcCKdR/coxs-bazar.jpg",
     href: "Domestic/Coxs-Bazar",
   },
   {
     id: 4,
     name: "Dhaka",
-    image: "/images/bangladesh/dhaka.jpeg",
+    image: "https://i.ibb.co/ZVhdBMr/dhaka.jpg",
     href: "Domestic/Dhaka",
   },
   {
     id: 5,
     name: "Rangamati",
-    image: "/images/bangladesh/rangamati.jpeg",
+    image: "https://i.ibb.co/1bVB4mD/rangamati.jpg",
     href: "Domestic/Rangamati",
   },
   {
     id: 6,
     name: "Sreemongol",
-    image: "/images/bangladesh/sreemongol.jpeg",
+    image: "https://i.ibb.co/VMCpp2C/sreemongol.jpg",
     href: "Domestic/Sreemongol",
   },
   {
     id: 7,
     name: "Sajek",
-    image: "/images/bangladesh/sajek.jpeg",
+    image: "https://i.ibb.co/7JHTg9t/sajek.jpg",
     href: "Domestic/Sajek",
   },
   {
     id: 8,
     name: "Sylhet",
-    image: "/images/bangladesh/sylhet.jpeg",
+    image: "https://i.ibb.co/Swjh1LB/sylhet.jpg",
     href: "Domestic/Sylhet",
   },
   {
     id: 9,
     name: "Ratargul",
-    image: "/images/bangladesh/ratargul.jpeg",
+    image: "https://i.ibb.co/hHG0NJ1/ratargul.jpg",
     href: "Domestic/Ratargul",
   },
 ];
@@ -77,7 +77,7 @@ export default function BdPlaces() {
                 sizes="100%"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                <h1 className="group-hover:text-5xl ease-in-out duration-100 text-3xl font-bold text-white">
+                <h1 className="text-3xl font-bold text-white duration-100 ease-in-out group-hover:text-5xl">
                   {place.name}
                 </h1>
               </div>
