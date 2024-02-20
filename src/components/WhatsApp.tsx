@@ -12,7 +12,7 @@ export default function WhatsApp() {
         target="_blank"
         href="https://wa.me/8801601362101
 ">
-        <Image
+        <img
           className="fixed bottom-2 right-5 z-50 "
           src="/images/whatsapp.svg"
           alt="whatsapp"

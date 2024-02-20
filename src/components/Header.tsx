@@ -39,7 +39,7 @@ export default function Header() {
           href="/"
           className="cursor-pointe flex  items-center gap-1 font-semibold uppercase underline decoration-[1px] underline-offset-2 hover:text-blue-600"
         >
-          <Image
+          <img
             className="pt-14 rounded-md"
             width={200}
             height={200}

@@ -39,11 +39,11 @@ export default function Promotions() {
               key={place.id}
               className="relative h-[650px] overflow-hidden  shadow-md"
             >
-              <Image
+              <img
                 className="h-full w-full object-fill"
                 src={place.image}
                 alt={place.desc}
-                fill
+                // fill
                 // height={240}
                 // width={433}
                 // layout="fill"

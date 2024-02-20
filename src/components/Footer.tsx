@@ -56,7 +56,7 @@ export default function Footer() {
                 href="/"
                 className="title-font flex items-center justify-center font-medium md:justify-start"
               >
-                <Image
+                <img
                   className="rounded-md"
                   height={200}
                   width={200}
@@ -108,7 +108,12 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-start gap-5 sm:flex-col lg:flex-row">
-            <Image src="https://i.ibb.co/jZSrqRJ/gov.png" width={70} height={50} alt="visa" />
+            <img
+              src="https://i.ibb.co/jZSrqRJ/gov.png"
+              width={70}
+              height={50}
+              alt="visa"
+            />
             <div>
               <h2 className="text-lg">Certified by Govt. Of Bangladesh</h2>
               <p>

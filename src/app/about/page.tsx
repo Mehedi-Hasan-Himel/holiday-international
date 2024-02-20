@@ -40,10 +40,15 @@ export default function AboutPage() {
         </section>
         <section className="mt-10 flex flex-col items-center justify-evenly gap-5 md:flex-row">
           <div>
-            <Image src="https://i.ibb.co/0FxJ0dC/tin.png" alt="about" width={500} height={500} />
+            <img
+              src="https://i.ibb.co/0FxJ0dC/tin.png"
+              alt="about"
+              width={500}
+              height={500}
+            />
           </div>
           <div>
-            <Image
+            <img
               src="https://i.ibb.co/1GgHj22/triad.png"
               alt="about"
               width={500}

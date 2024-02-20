@@ -71,7 +71,7 @@ export default function ContactPage() {
               <div className="mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center">
                 <a className="text-indigo-500">contact@holidayintbd.com</a>
                 <p className="my-5 leading-normal">
-                  49 Smith St.
+                  Holiday International BD
                   <br />
                   Badda
                 </p>
