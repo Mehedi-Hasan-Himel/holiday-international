@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  //   reactStrictMode: true,
-  //   distDir: "dist",
-  //   output: "export",
+  reactStrictMode: true,
+  distDir: "dist",
+  output: "export",
 };
 
 module.exports = {
@@ -10,3 +10,5 @@ module.exports = {
     domains: ["i.ibb.co"],
   },
 };
+
+module.exports = nextConfig;
