@@ -3,11 +3,11 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <Container className="mt-20 flex flex-col gap-3">
-      <section className="body-font relative text-gray-600">
+    <Container className="mt-20 flex flex-col gap-3 ">
+      <section className="body-font relative text-gray-600 dark:text-white">
         <div className="container mx-auto px-5 py-24">
           <div className="mb-12 flex w-full flex-col text-center">
-            <h1 className="title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl">
+            <h1 className="title-font mb-4 text-2xl font-medium text-gray-900 dark:text-white sm:text-3xl">
               Contact Us
             </h1>
             <p className="mx-auto text-base leading-relaxed lg:w-2/3">
@@ -20,7 +20,7 @@ export default function ContactPage() {
                 <div className="relative">
                   <label
                     htmlFor="name"
-                    className="text-sm leading-7 text-gray-600"
+                    className="text-sm leading-7 text-gray-600 dark:text-white"
                   >
                     Name
                   </label>
@@ -36,7 +36,7 @@ export default function ContactPage() {
                 <div className="relative">
                   <label
                     htmlFor="email"
-                    className="text-sm leading-7 text-gray-600"
+                    className="text-sm leading-7 text-gray-600 dark:text-white"
                   >
                     Email
                   </label>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 <div className="relative">
                   <label
                     htmlFor="message"
-                    className="text-sm leading-7 text-gray-600"
+                    className="text-sm leading-7 text-gray-600 dark:text-white"
                   >
                     Message
                   </label>
@@ -65,7 +65,7 @@ export default function ContactPage() {
               </div>
               <div className="w-full p-2">
                 <button className="mx-auto flex rounded border-0 bg-indigo-500 px-8 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none">
-                  Button
+                  Submit
                 </button>
               </div>
               <div className="mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center">
