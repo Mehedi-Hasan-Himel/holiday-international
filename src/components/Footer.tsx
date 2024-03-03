@@ -3,49 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
-  const UsefulLinks = [
-    {
-      title: "About",
-      link: "/about",
-    },
-    {
-      title: "Contact",
-      link: "/contact",
-    },
-
-    {
-      title: "Refund Policy",
-      link: "/Refund-Policy",
-    },
-    {
-      title: "Terms & Condition",
-      link: "/terms&condition",
-    },
-    {
-      title: "Privacy Policy",
-      link: "/Privacy-Policy",
-    },
-  ];
-
-  const ContactInfo = [
-    {
-      title: "CHA-95/3, NORTH BADDA, Badda, Dhaka, PO : 1212",
-      link: "/",
-    },
-    {
-      title: "+88 0123456789",
-      link: "/",
-    },
-    {
-      title: "contact@holidayinternational.com",
-      link: "/",
-    },
-    {
-      title: "Dhaka, Bangladesh",
-      link: "/",
-    },
-  ];
-
   return (
     <footer className=" body-font   bottom-0 w-full">
       <section className="m-auto max-w-[1320px] ">
@@ -81,14 +38,23 @@ export default function Footer() {
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
               Useful Links
             </h2>
+
             <nav className="mb-10 flex list-none flex-col	 gap-2">
-              {UsefulLinks.map((link, index) => (
-                <li key={index}>
-                  <Link href={link.link} className=" hover:text-gray-400">
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
+              <Link href="/about" className=" hover:text-gray-400">
+                About
+              </Link>
+              <Link href="/contact" className=" hover:text-gray-400">
+                Contact
+              </Link>
+              <Link href="/Refund-Policy" className=" hover:text-gray-400">
+                Refund Policy
+              </Link>
+              <Link href="/terms&condition" className=" hover:text-gray-400">
+                Terms & Condition
+              </Link>
+              <Link href="/Privacy-Policy" className=" hover:text-gray-400">
+                Privacy-Policy
+              </Link>
             </nav>
           </div>
 
@@ -96,14 +62,27 @@ export default function Footer() {
             <h2 className="title-font mb-3 text-sm font-medium tracking-widest ">
               Contact Information
             </h2>
+
             <nav className="mb-10 flex list-none flex-col	 gap-2">
-              {ContactInfo.map((contact, index) => (
-                <li key={index}>
-                  <Link href={contact.link} className=" hover:text-gray-400">
-                    {contact.title}
-                  </Link>
-                </li>
-              ))}
+              <p>CHA-95/3, NORTH BADDA, Badda, Dhaka, PO : 1212</p>
+              <p>+88 0123456789</p>
+              <p>
+                <Link
+                  href="mailto:info@holidayintbd.com"
+                  className=" hover:text-blue-400"
+                >
+                  info@holidayintbd.com
+                </Link>
+              </p>
+              <p>
+                <Link
+                  href="mailto:reservation@holidayintbd.com"
+                  className=" hover:text-blue-400"
+                >
+                  reservation@holidayintbd.com
+                </Link>
+              </p>
+              <p>Dhaka, Bangladesh</p>
             </nav>
           </div>
 
@@ -123,10 +102,6 @@ export default function Footer() {
               </p>
             </div>
           </div>
-
-          {/* <div className="-mb-10 mt-10 flex flex-grow flex-wrap text-center  md:mt-0 md:flex-row md:pl-20 md:text-left">
-            
-          </div> */}
         </div>
 
         {/* <hr /> */}

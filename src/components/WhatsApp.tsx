@@ -10,7 +10,7 @@ export default function WhatsApp() {
     >
       <Link
         target="_blank"
-        href="https://wa.me/8801601362101
+        href="https://wa.me/8801321753335
 ">
         <img
           className="fixed bottom-2 right-5 z-50 "
