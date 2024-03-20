@@ -1,69 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-const destination = [
-  {
-    id: 1,
-    name: "Bandarban",
-    image: "https://i.ibb.co/NTvp02M/bandarban.jpg",
-    href: "Domestic/Bandarban",
-  },
-  {
-    id: 2,
-    name: "Chittagong",
-    image: "https://i.ibb.co/Qkm1zsq/chittagong.jpg",
-    href: "Domestic/Chittagong",
-  },
-  {
-    id: 3,
-    name: "Cox's Bazar",
-    image: "https://i.ibb.co/7YcCKdR/coxs-bazar.jpg",
-    href: "Domestic/Coxs-Bazar",
-  },
-  {
-    id: 4,
-    name: "Dhaka",
-    image: "https://i.ibb.co/ZVhdBMr/dhaka.jpg",
-    href: "Domestic/Dhaka",
-  },
-  {
-    id: 5,
-    name: "Rangamati",
-    image: "https://i.ibb.co/1bVB4mD/rangamati.jpg",
-    href: "Domestic/Rangamati",
-  },
-  {
-    id: 6,
-    name: "Sreemongol",
-    image: "https://i.ibb.co/VMCpp2C/sreemongol.jpg",
-    href: "Domestic/Sreemongol",
-  },
-  {
-    id: 7,
-    name: "Sajek",
-    image: "https://i.ibb.co/7JHTg9t/sajek.jpg",
-    href: "Domestic/Sajek",
-  },
-  {
-    id: 8,
-    name: "Sylhet",
-    image: "https://i.ibb.co/Swjh1LB/sylhet.jpg",
-    href: "Domestic/Sylhet",
-  },
-  {
-    id: 9,
-    name: "Ratargul",
-    image: "https://i.ibb.co/hHG0NJ1/ratargul.jpg",
-    href: "Domestic/Ratargul",
-  },
-];
+import BDPlaces from "@/data/bdPlaces.json";
 
 export default function BdPlaces() {
   return (
     <div>
       <div className="grid grid-cols-1 gap-6 px-5 md:grid-cols-2 lg:grid-cols-3">
-        {destination.map((place) => (
+        {BDPlaces.map((place) => (
           <div
             key={place.id}
             className="group relative h-60 cursor-pointer overflow-hidden rounded-lg shadow-md"
