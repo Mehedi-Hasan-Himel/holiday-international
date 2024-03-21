@@ -41,6 +41,10 @@ const MobileNav = () => {
       name: "Contact",
       href: "/contact",
     },
+    {
+      name: "Login",
+      href: "/login",
+    },
   ];
 
   const pathName = usePathname();

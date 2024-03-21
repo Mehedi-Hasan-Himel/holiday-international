@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
+  // Current Year for Footer
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
   return (
     <footer className=" body-font   bottom-0 w-full">
       <section className="m-auto max-w-[1320px] ">
@@ -64,8 +67,16 @@ export default function Footer() {
             </h2>
 
             <nav className="mb-10 flex list-none flex-col	 gap-2">
-              <p>CHA-95/3, NORTH BADDA, Badda, Dhaka, PO : 1212</p>
-              <p>+88 0123456789</p>
+              <p>
+                House: 35, park Hayatt Hotel,Road:1/A, Block:I, Banani,
+                Dhaka-1213
+              </p>
+              <p>
+                {" "}
+                <a className="text-indigo-500" href="tel:+880 1321-753335">
+                  +880 1321-753335
+                </a>
+              </p>
               <p>
                 <Link
                   href="mailto:info@holidayintbd.com"
@@ -108,7 +119,7 @@ export default function Footer() {
         <div className="">
           <div className="container mx-auto flex flex-col flex-wrap px-5 py-4 sm:flex-row">
             <p className="text-center text-sm  sm:text-left">
-              © 2024 Holiday International —
+              © {currentYear} Holiday International —
               <Link
                 href="https://www.facebook.com/profile.php?id=61553228693675"
                 className="ml-1 text-blue-500"

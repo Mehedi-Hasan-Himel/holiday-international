@@ -8,7 +8,7 @@ export default function AboutPage() {
     <section>
       <Hero />
       <Container className="mt-20 flex flex-col gap-3">
-        <section>
+        <section className="mx-10">
           <h1 className="text-center text-3xl">About US</h1>
 
           <p className="text-lg tracking-wide">

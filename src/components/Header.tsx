@@ -29,6 +29,11 @@ export default function Header() {
       name: "Contact",
       href: "/contact",
     },
+    {
+      name: "Login",
+      href: "/login",
+    },
+    
   ];
   const pathName = usePathname();
   return (
@@ -74,6 +79,7 @@ export default function Header() {
         <div className="hidden lg:inline-block ">
           <ThemeButton />
         </div>
+       
       </section>
     </nav>
   );
