@@ -41,7 +41,7 @@ export default function Register() {
                   </svg>
                 </div>
               </div>
-              <form className="px-2">
+              <div className="px-2">
                 {/* Your form elements go here  */}
                 <div className="flex flex-col items-center">
                   <div className="relative mb-4 w-full">
@@ -125,7 +125,7 @@ export default function Register() {
                     SIGN UP
                   </button>
                 </div>
-              </form>
+              </div>
 
               <div className="mb-8 whitespace-nowrap text-center text-xs text-gray-500 md:text-sm lg:text-sm">
                 Already have an account?

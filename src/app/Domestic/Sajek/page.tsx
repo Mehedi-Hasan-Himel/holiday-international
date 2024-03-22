@@ -1,14 +1,7 @@
 import React from "react";
 import Hotel from "@/components/Hotel/Hotel";
+import destination from "@/data/domestic/SajekHotel.json"
 
-const destination = [
-  {
-    id: 1,
-    name: "Megh Kabbo Hilltop Cottage",
-    image: "https://i.ibb.co/LnHM0dz/Megh-Kabbo-Hilltop-Cottage.jpg",
-    href: "Megh-Kabbo-Hilltop-Cottage",
-  },
-];
 export default function Sajek() {
   return (
     <div className="mt-40">

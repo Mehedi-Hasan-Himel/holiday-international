@@ -1,55 +1,62 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import BDPlaces from "@/data/BDPlaces.json";
 
 const destination = [
   {
     id: 1,
     name: "Bandarban",
-    image: "https://i.ibb.co/nmt5LZB/bandarban.jpg",
+    image: "/images/Domestic/bandarban.jpeg",
     href: "Domestic/Bandarban",
   },
   {
     id: 2,
     name: "Chittagong",
-    image: "https://i.ibb.co/9byyr0g/chittagong.jpg",
+    image: "/images/Domestic/chittagong.jpeg",
     href: "Domestic/Chittagong",
   },
   {
     id: 3,
     name: "Cox's Bazar",
-    image: "https://i.ibb.co/XChrVkv/coxs-bazar.jpg",
+    image: "/images/Domestic/coxs-bazar.jpeg",
     href: "Domestic/Coxs-Bazar",
   },
   {
     id: 4,
     name: "Dhaka",
-    image: "https://i.ibb.co/4gzVMMC/dhaka.jpg",
+    image: "/images/Domestic/dhaka.jpeg",
     href: "Domestic/Dhaka",
   },
   {
     id: 5,
     name: "Rangamati",
-    image: "https://i.ibb.co/p1KVZCn/rangamati.jpg",
+    image: "/images/Domestic/sreemongol.jpeg",
     href: "Domestic/Rangamati",
   },
   {
     id: 6,
     name: "Sreemongol",
-    image: "https://i.ibb.co/80rbWB1/sreemongol.jpg",
+    image: "/images/Domestic/sreemongol.jpeg",
     href: "Domestic/Sreemongol",
   },
   {
     id: 7,
     name: "Sajek",
-    image: "https://i.ibb.co/rv2ybjK/sajek.jpg",
+    image: "/images/Domestic/sajek.jpeg",
     href: "Domestic/Sajek",
   },
   {
     id: 8,
     name: "Sylhet",
-    image: "https://i.ibb.co/gT8Ljxw/sylhet.jpg",
+    image: "/images/Domestic/sylhet.jpeg",
     href: "Domestic/Sylhet",
+  },
+  {
+    id: 9,
+    name: "Ratargul",
+    image: "/images/Domestic/ratargul.jpeg",
+    href: "Domestic/Ratargul",
   },
 ];
 
@@ -57,7 +64,7 @@ export default function BdPlaces() {
   return (
     <div>
       <div className="grid grid-cols-1 gap-6 px-5 md:grid-cols-2 lg:grid-cols-3">
-        {destination.map((place) => (
+        {BDPlaces.map((place) => (
           <div
             key={place.id}
             className="group relative h-60 cursor-pointer overflow-hidden rounded-lg shadow-md"
