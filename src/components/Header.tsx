@@ -33,7 +33,6 @@ export default function Header() {
       name: "Login",
       href: "/login",
     },
-    
   ];
   const pathName = usePathname();
   return (

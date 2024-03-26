@@ -3,9 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
-  // Current Year for Footer
-  const currentDate = new Date();
-  const currentYear = currentDate.getFullYear();
+
   return (
     <footer className=" body-font   bottom-0 w-full">
       <section className="m-auto max-w-[1320px] ">
@@ -119,7 +117,7 @@ export default function Footer() {
         <div className="">
           <div className="container mx-auto flex flex-col flex-wrap px-5 py-4 sm:flex-row">
             <p className="text-center text-sm  sm:text-left">
-              © {currentYear} Holiday International —
+              © {new Date().getFullYear().toString()} Holiday International —
               <Link
                 href="https://www.facebook.com/profile.php?id=61553228693675"
                 className="ml-1 text-blue-500"
